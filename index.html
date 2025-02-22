@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>arg</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="styles.css">
+   
+    
+    
+</head>
+
+
+<body>
+    
+  <!-- pre loader  -->
+  <div id="preloader"></div>
+  <nav class="navbar">
+      <div class="max-width">
+          <div class="logo"><a href="index.html#home">𝕬𝕽𝕲<span class="typing-0"></span></a></div>
+          <ul class="menu">
+              <li><a href="#home" class="menu-btn">Home</a></li>
+              <li><a href="#about" class="menu-btn">About</a></li>
+              <li><a href="#services" class="menu-btn">Services</a></li>
+              <li><a href="#skills" class="menu-btn">Skills</a></li>
+              <li><a href="#teams" class="menu-btn">Projects</a></li>
+              <li><a href="#contact" class="menu-btn">Contact</a></li>
+          </ul>
+          <div class="menu-btn">
+              <i class="fas fa-bars"></i>
+          </div>
+      </div>
+  </nav>
+
+  <!-- home section start -->
+  <section class="home" id="home">
+      <div class="max-width">
+          <div class="home-content">
+              <div class="text-1">Hello, My name is</div>
+              <div class="text-2">Aryan Gupta</div>
+              <div class="text-3">And I'm a <span class="typing"></span></div>
+              <div class="classbox">
+              <a href="Aryan.pdf" download="Aryan.pdf" target="_blank"">Hire me</a>
+          </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- about section start -->
+  <section class="about" id="about">
+      <div class="max-width">
+          <h2 class="title">About me</h2>
+          <div class="about-content">
+              <div class="column left">
+                  <img src="Images\about2.jpg" alt="img" width="100%" height="600px">
+                  <img src="Images\about.jpg" alt="img" width="100%" height="600px">
+              </div>
+              <div class="column right">
+                  <div class="text">I'm Aryan Gupta, and I'm a <span class="typing-2"></span></div>
+                  <p>I'm a highly motivated and passionate Web Developer, Tester, and SEO Specialist based in Noida, India. With a Bachelor of Technology in Computer Science Engineering from Inderprastha Engineering College (IPEC), I have developed a strong foundation in software development and web technologies. My passion for technology fuels my creativity and problem-solving abilities, allowing me to deliver innovative solutions in challenging environments.  </p>
+                  <p>With hands-on experience in Java, JavaScript, HTML, CSS, MySQL, and Spring Boot, I have worked on over 70 projects, focusing on developing high-performance websites, server-side scripting, database management, quality assurance, and SEO migration. Currently, I am contributing my skills as a Web Developer and Tester at Digicorns Technologies, where I manage development, testing, and SEO strategies to enhance website performance and improve rankings.</p>
+                  <p>I have also gained valuable experience through internships at Cisco, InternDev, and Code Clause, expanding my expertise in Java development, cybersecurity, software testing, and SEO. I am well-versed in the Software Testing Life Cycle (STLC), Software Development Life Cycle (SDLC), Performance Testing, and SEO migration, ensuring scalable and high-quality digital solutions.</p>
+                  <p>As a firm believer in continuous learning, I thrive in team environments and take pride in delivering impactful, collaborative solutions. My extracurricular activities such as coding, cricket, and dance further hone my leadership and teamwork abilities, preparing me for new challenges in the tech world.</p>
+                  <p>I am always eager to connect with professionals who share a passion for technology and innovation, as we build solutions that push the boundaries of what's possible.</p>
+                  <a class="classbox-1" href="Aryan.pdf" download="Aryan.pdf" target="_blank">Download CV</a>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+
+  <!-- services section start -->
+  <section class="services" id="services">
+    <div class="max-width">
+        <h2 class="title">My services</h2>
+        <div class="serv-content">
+        </div>
+    </div>
+   <div class="container">
+    <div class="box">
+        <span id="first"> </span>
+        <div class="content">
+            <h2>Designer</h2>
+            <p><strong>As a web designer</strong>, I build creative, user-friendly websites using HTML, CSS, and JavaScript to make sure they look great and work smoothly.</p>
+        </div>
+    </div>
+    <div class="box">
+        <span id="second"></span>
+        <div class="content">
+          <h2>Development</h2>
+          <p><strong>I build backend systems</strong> using Spring Boot and WordPress, ensuring seamless performance, scalability, and secure growth for businesses.</p>            
+        </div>
+    </div>
+    <div class="box">
+        <span id="third"></span>
+        <div class="content">
+            <h2>SEO</h2>
+            <p><strong>I offer SEO services</strong> to help businesses rank higher on Google using tools like Google Ads, Analytics, Canonical tags, and Schema tags to boost visibility.</p>
+        </div>
+    </div>
+    <div class="box">
+      <span id="fourth"></span>
+      <div class="content">
+        <h2>Testing</h2>
+        <p><strong>I specialize in Manual Testing</strong>, ensuring quality through SDLC and STLC processes to deliver reliable and bug-free results.</p>            
+      </div>
+  </div>
+    <div class="box">
+        <span id="fifth"></span>
+        <div class="content">
+            <h2>video Editing</h2>
+            <p><strong>In today’s digital world</strong>, video editing is essential for any platform. I use Photoshop to edit images, create banners, and design visuals that attract customers to online stores.</p>
+        </div>
+    </div>
+   
+    <!-- <div class="box">
+        <span id="sixth"></span>
+        <div class="content">
+            <h2>App Development</h2>
+            <p>Apps helps to those people who are not mostly friendly towards the website.Apps helps people in user interface which make them easier.</p>
+        </div>
+    </div> -->
+</div>
+</section>
+
+  
+  
+  
+ <!-- skills section start -->
+ <section class="skills" id="skills">
+    <div class="max-width">
+        <h2 class="title">My skills</h2>
+        <div class="skills-content">
+            <div class="column left">
+                <div class="text">My creative skills & experiences.</div>
+                <p>
+                    I have gained extensive experience as a web developer, working on a variety of projects for agencies, startups, and businesses. My expertise lies in building high-performance, user-friendly websites that align with industry best practices.
+                </p>
+                <p>
+                    My technical skills include front-end and back-end development using HTML, CSS, JavaScript, and Java. I have experience with databases like MySQL and frameworks such as Spring Boot. Additionally, I specialize in WordPress development, creating dynamic and custom solutions for clients.
+                </p>
+                <p>
+                    Apart from development, I have a strong understanding of manual testing, performance testing, and the software testing life cycle (STLC). I follow the software development life cycle (SDLC) to ensure the quality and efficiency of each project.
+                </p>
+                <p>
+                    My areas of interest include software engineering, software development, and testing. I am always eager to learn new technologies and enhance my skills. Feel free to visit my <a href="Aryan.pdf" id="link" target="_blank">Resume/Portfolio-1</a> for more details or <a href="tel:+917398461925" id="link">contact</a> me for collaboration.
+                </p>
+                
+                
+            <a href="#contact">Learn more</a>
+            </div>
+            <div class="column right">
+                <div class="bars">
+                    <div class="info">
+                        <span>HTML & CSS</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="line html"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>JavaScript</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="line js"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Java</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="line java"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Object-Oriented Programming</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="line oop"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>MySQL</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="line mysql"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Spring Boot</span>
+                        <span>40%</span>
+                    </div>
+                    <div class="line springboot"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>WordPress</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="line wordpress"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Manual Testing</span>
+                        <span>65%</span>
+                    </div>
+                    <div class="line manual-testing"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Performance Testing</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="line performance-testing"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Software Development Life Cycle (SDLC)</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="line sdlc"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Software Testing Life Cycle (STLC)</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="line stlc"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>VS Code</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="line vscode"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Photoshop</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="line photoshop"></div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+  
+
+<section class="Experience">
+    <div class="max-width">
+      <div class="container">
+        <div class="grid-list-items s-about__blocks">
+          <div class="grid-list-items__item s-about__block">
+            <!-- <h4 class="s-about__block-title"></h4> -->
+            <h2 class="title">Experience</h2>
+            <div class="content">
+              <ul class="s-about__list">
+                <li class="company-2">
+                  <div class="experience-header">
+                    <span class="company">
+                      Digicorns Technologies - Noida | Web Developer &amp; Manual Tester | July 2024 - Present
+                    </span>
+                  </div>
+                  <ul class="experience-details">
+                    <!-- Development Section -->
+                    <li class="experience-section">
+                      <span class="section-title">Web Development:</span>
+                    </li>
+                    <ul class="experience-sublist">
+                      <li><strong>Developing user-friendly web applications</strong>: Focused on creating seamless interfaces that enhance user experience.</li>
+                      <li><strong>Contributed to over 30 websites</strong>: Worked on projects like The Naked Cupcake, Kaimoving, and GPE Home Design.</li>
+                      <li><strong>Collaborated with cross-functional teams</strong>: Partnered with designers, project managers, and QA testers for cohesive delivery.</li>
+                    </ul>
+                    <!-- Manual Testing Section -->
+                    <li class="experience-section">
+                      <span class="section-title">Manual Testing:</span>
+                    </li>
+                    <ul class="experience-sublist">
+                      <li><strong>Performed rigorous testing</strong>: Conducted thorough tests to identify bugs and ensure quality.</li>
+                      <li><strong>Documented defects</strong>: Reported issues and tracked them until resolution.</li>
+                      <li><strong>Improved testing processes</strong>: Implemented new methods for enhanced quality and reliability.</li>
+                    </ul>
+                  </ul>
+                </li>
+                <li class="company-2">
+                  <div class="experience-header">
+                    <span class="company">
+                      Inderprastha Engineering College (IPEC) | Java Intern | July 2023
+                    </span>
+                  </div>
+                  <ul class="experience-details">
+                    <li><strong>Enhanced Java skills</strong>: Gained practical experience through real-world projects.</li>
+                    <li><strong>Contributed to software projects</strong>: Played a key role in team projects, enhancing functionality and learning effective coding practices.</li>
+                  </ul>
+                </li>
+                <li class="company-2">
+                  <div class="experience-header">
+                    <span class="company">
+                      Cisco | Cybersecurity Intern | 2023
+                    </span>
+                  </div>
+                  <ul class="experience-details">
+                    <li><strong>Applied cybersecurity principles</strong>: Reinforced theoretical knowledge with hands-on experience.</li>
+                    <li><strong>Focused on network security</strong>: Engaged in projects on threat detection and data protection.</li>
+                  </ul>
+                </li>
+                <li class="company-2">
+                  <div class="experience-header">
+                    <span class="company">
+                      Code Clause | Java Development Intern | 2023
+                    </span>
+                  </div>
+                  <ul class="experience-details">
+                    <li><strong>Mastered responsive coding techniques</strong>: Developed adaptable applications for various devices.</li>
+                    <li><strong>Improved coding efficiency</strong>: Focused on clean, maintainable code to enhance performance.</li>
+                  </ul>
+                </li>
+              </ul>
+            </div> <!-- end .content -->
+          </div> <!-- end .grid-list-items__item -->
+        </div> <!-- end .grid-list-items -->
+      </div>
+    </div>
+  </section>
+
+
+
+<!-- Why Choose me -->
+<section class="about" id="about">
+    <div class="max-width">
+        <h2 class="Chooseme">Why Choose Me</h2>
+        <div class="about-content">
+            <div class="column left">
+                <img src="Images\4.jpg" alt="img" width="100%" height="600px">
+            </div>
+            <div class="column right">
+                <div class="text">
+                <h2>4+ Projects Completed</h2></div>
+                <p>Successfully developed over 30 web projects, demonstrating proficiency in front-end and back-end technologies.</p>
+            
+                <div class="text">
+               <h2>4+ Happy Customers</h2> </div>
+               <p>Our commitment to quality and timely delivery has led to satisfied clients who trust us with their digital needs.</p>
+           
+               <div class="text">
+               <h2>200+ Lines of Code</h2> </div>
+               <p>With each project, we consistently maintain high coding standards and practices, contributing to robust applications.</p>
+           
+             <div class="text">
+               <h2>85+ Positive Feedback</h2></div>
+               <p>Feedback from clients has been overwhelmingly positive, reflecting our dedication to user experience and design.</p>
+            
+                <a class="classbox-1" href="Aryan.pdf" download="Aryan.pdf" target="_blank">Download CV</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- project section start -->
+  <section class="teams" id="teams">
+      <div class="max-width">
+          <h2 class="title">My Projects</h2>
+          <div class="carousel owl-carousel">
+            <div class="card">
+                <div class="box">
+                    <img src="Images\perspnal.png" alt="img">
+                    <div class="text">Personallegacyplans</div>
+                    <p>The website offers personal legacy planning services, helping individuals organize and protect their assets, plan for future generations, and ensure their wishes are honored.</p>
+                    <a href="https://personallegacyplans.com/" class="project" target="_blank">View Project</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="Images\1hope.webp" alt="img">
+                    <div class="text">1hopehomehealth</div>
+                    <p>The website is for "1Hope Home Health", providing home healthcare services, including skilled nursing, therapy, and support for individuals in need of medical care at home.</p>
+                    <a href=" https://1hopehomehealth.digicorns.dev/" class="project" target="_blank">View Project</a>
+                </div>
+            </div>
+              <div class="card">
+                  <div class="box">
+                      <img src="Images\Kai.jpg" alt="img">
+                      <div class="text">KAI Moving</div>
+                      <p>Kai Moving is a moving services company offering residential, commercial, and long-distance moving solutions .</p>
+                      <a href="https://www.kaimoving.com/" class="project" target="_blank">View Project</a>
+                  </div>
+              </div>
+              <div class="card">
+                  <div class="box">
+                      <img src="Images\AZBS.webp" alt="img">
+                      <div class="text">AZBS</div>
+                      <p>The website is for Shepherd Business Solutions, offering payroll, HR, and business services.</p>
+                      <a href="https://thewebsites.live/azsbswp/#" class="project" target="_blank">View project</a>
+                  </div>
+              </div>
+              <div class="card">
+                  <div class="box">
+                      <img src="Images\NAtional2.webp" alt="img">
+                      <div class="text">Nationalbuscharters</div>
+                      <p>The website offers charter bus rental services for group transportation, including trips, events, and corporate travel .</p>
+                      <a href="https://www.nationalbuscharters.com/" class="project" target="_blank">View Project</a>
+                  </div>
+              </div>
+              <div class="card">
+                <div class="box">
+                    <img src="Images\Ron.webp" alt="img">
+                    <div class="text">Ronwilliamschampion</div>
+                    <p>The website is for "Ron Williams Champion", focusing on personal development, leadership training, and motivational speaking to inspire and empower individuals and organizations.</p>
+                    <a href="https://ronwilliamschampion.com/" class="project" target="_blank">View Project</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="Images\Blink.jpg" alt="img">
+                    <div class="text">Blink High End</div>
+                    <p>The website is for **Blink High-End**, offering luxury eyewear and accessories, with a focus on high-quality, stylish frames and personalized customer service.</p>
+                    <a href="https://blinkhighend.com/" class="project" target="_blank">View Project</a>
+                </div>
+            </div>
+              
+          </div>
+      </div>
+  </section>
+  
+
+  <!-- contact section start -->
+  <section class="contact" id="contact">
+      <div class="max-width">
+          <h2 class="title">Contact me</h2>
+          <div class="contact-content">
+            <div class="column left">
+                <div class="contact-heading">
+                    Get in Touch
+                </div>
+                <p>If you're looking for a passionate and skilled professional to bring your project to life, you're in the right place! Whether it's a website, an application, or a creative solution you're seeking, I'm ready to collaborate with you. Share a little about your project, and let's explore how we can achieve great results together. I'll be happy to respond and discuss how I can contribute to your success. Looking forward to hearing from you soon!</p>
+                <div class="icons">
+                    <div class="row">
+                        <i class="fas fa-user"></i>
+                        <div class="info">
+                            <div class="head">Name</div>
+                            <div class="sub-title">Aryan Gupta</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="info">
+                            <div class="head">Address</div>
+                            <div class="sub-title">Noida, Uttar Pradesh, India</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info">
+                            <div class="head">Email</div>
+                            <div class="sub-title">aryanguptafe2@gmail.com</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+              <div class="column right">
+                  <div class="text">Message me</div>
+                  <form id="contactForm">
+                    <div class="fields">
+                        <div class="field name">
+                            <input type="text" id="name" placeholder="Name" required>
+                        </div>
+                        <div class="field email">
+                            <input type="email" id="email" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <input type="text" id="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="field textarea">
+                        <textarea id="message" cols="30" rows="10" placeholder="Message.." required></textarea>
+                    </div>
+                    <div class="button-area">
+                        <button type="submit">Send message</button>
+                    </div>
+                </form>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- footer section start -->
+
+  <footer>
+      <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+      </div>
+      <h2><span class="typing-3"></span></h2>
+      <ul id="media">
+           <!-- Phone Number -->
+<li style="--clr:#25D366;">
+    <a href="tel:+917398461925">
+        <i class="fa-solid fa-phone"></i>
+    </a>
+</li>
+<!-- Email -->
+<li style="--clr:#D44638;">
+    <a href="mailto:aryanguptafe2@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+    </a>
+</li>
+
+<!-- Portfolio -->
+<li style="--clr:#FFA500;">
+    <a href="your-portfolio-link-here" target="_blank">
+        <i class="fa-solid fa-globe"></i>
+    </a>
+</li>
+<!-- LinkedIn -->
+<li style="--clr:#0077B5;">
+    <a href="https://www.linkedin.com/in/aryan-gupta-127706213" target="_blank">
+        <i class="fa-brands fa-linkedin-in"></i>
+    </a>
+</li>
+<!-- GitHub -->
+<li>
+    <a href="https://github.com/aryangupta02" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" 
+             alt="GitHub" width="40" height="40" style="filter: invert(1);">
+    </a>
+</li>
+
+
+<!-- Address -->
+<li style="--clr:#FF5733;">
+    <a href="https://maps.google.com/?q=Noida, India" target="_blank">
+        <i class="fa-solid fa-map-marker-alt"></i>
+    </a>
+</li>
+
+
+      </ul>
+     
+      <p>&copy; <span id="year"></span> <a href="https://hembdrpun.com.np/" target="_blank">Aryan</a> | All Rights Reserved |</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
